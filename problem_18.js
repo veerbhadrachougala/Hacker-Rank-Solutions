@@ -63,7 +63,7 @@
 
 // max(1,2,3,4) - min(1,2,3,4) = 4 - 1 = 3
 
-function maxMin(k, arr) {
+function maxMin(k, arr){
     arr.sort((a, b) => a - b);
     let minUnfairness = Infinity;
     for (let i = 0; i <= arr.length - k; i++) {
