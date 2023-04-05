@@ -58,7 +58,6 @@ function miniMaxSum(arr) {
             maxSum = arr[i];
         }
     }
-    console.log((totalSum - maxSum) + ' ' + (totalSum-
-                                             minSum));
+    console.log((totalSum - maxSum) + ' ' + (totalSum-minSum));
 }
     miniMaxSum(arr);
