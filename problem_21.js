@@ -56,10 +56,10 @@ function balancedSums(arr) {
     for (let i = 0; i < arr.length; i++) {
       if (leftSum === totalSum - leftSum - arr[i]) { // check if left sum is equal to right sum
         return "YES";
-      }
+      };
       leftSum += arr[i]; // add current element to left sum
-    }
+    };
     return "NO"; // if loop completes, no such element exists
-  }
+  };
   console.log(balancedSums([1, 2, 3])); // Output: "NO"
   console.log(balancedSums([1, 2, 3, 3])); // Output: "YES"
